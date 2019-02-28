@@ -1,0 +1,22 @@
+{
+    "name": "jhfmiguel/php-classes",
+    "minimum-stability": "dev",
+    "type": "library",
+    "description": "PHP Classes",
+    "homepage": "https://github.com/jhfmiguel/php-classes",
+    "authors": [
+        {
+            "name": "FMecommerce",
+            "email": "jhfmiguel@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    }
+}
